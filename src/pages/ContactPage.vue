@@ -1,22 +1,6 @@
 <template>
   <div class="page">
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-
-      <h2>SMK YADIKA SOREANG - Onlineshop</h2>
-
-      <nav>
-        <RouterLink to="/">Landing</RouterLink>
-        <RouterLink to="/product">Product</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-      </nav>
-
-    </header>
-
-
-    <!-- JUDUL -->
     <section class="title">
 
       <h1>Hubungi Kami</h1>
@@ -27,11 +11,8 @@
 
     </section>
 
-
-    <!-- CONTACT -->
     <section class="contact">
 
-      <!-- INFO -->
       <div class="contact-info">
 
         <h2>Info Kontak</h2>
@@ -54,7 +35,6 @@
       </div>
 
 
-      <!-- FORM -->
       <div class="form-box">
 
         <h2>Kirim Pesan</h2>
@@ -119,9 +99,6 @@
   color: #263858;
 }
 
-
-/* NAVBAR */
-
 .navbar {
   max-width: 1100px;
 
@@ -162,9 +139,6 @@ nav a:hover {
   color: #405de6;
 }
 
-
-/* JUDUL */
-
 .title {
   max-width: 1100px;
 
@@ -189,9 +163,6 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-
-/* CONTACT */
-
 .contact {
   max-width: 950px;
 
@@ -199,17 +170,12 @@ nav a:hover {
 
   padding: 0 20px;
 
-  /* CLUE 2 KOLOM */
-
   display: flex;
 
   gap: 40px;
 
   align-items: flex-start;
 }
-
-
-/* INFO */
 
 .contact-info {
   flex: 1;
@@ -229,9 +195,6 @@ nav a:hover {
   line-height: 1.5;
 }
 
-
-/* FORM */
-
 .form-box {
   flex: 1;
 
@@ -239,11 +202,7 @@ nav a:hover {
 
   background: white;
 
-  /* CLUE */
-
   border-radius: 15px;
-
-  /* CLUE */
 
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
@@ -272,8 +231,6 @@ input,
 textarea {
   padding: 12px;
 
-  /* CLUE */
-
   border-radius: 8px;
 
   border: 1px solid #ddd;
@@ -294,17 +251,12 @@ textarea:focus {
   border-color: #405de6;
 }
 
-
-/* TOMBOL */
-
 button {
   margin-top: 10px;
 
   padding: 12px;
 
   border: none;
-
-  /* CLUE */
 
   border-radius: 999px;
 
@@ -321,9 +273,6 @@ button:hover {
   background: #294a91;
 }
 
-
-/* FOOTER */
-
 footer {
   margin-top: 40px;
 
@@ -335,9 +284,6 @@ footer {
 
   color: #666;
 }
-
-
-/* HP */
 
 @media (max-width: 700px) {
 

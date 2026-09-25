@@ -1,29 +1,11 @@
 <template>
   <div class="page">
 
-    <!-- NAVBAR -->
-    <header class="navbar">
-
-      <h2>SMK YADIKA SOREANG - Onlineshop</h2>
-
-      <nav>
-        <RouterLink to="/">Landing</RouterLink>
-        <RouterLink to="/product">Product</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/contact">Contact</RouterLink>
-      </nav>
-
-    </header>
-
-
-    <!-- JUDUL -->
     <section class="title">
       <h1>Tentang Kami</h1>
       <p>Mengenal lebih dekat Yadika Onlineshop.</p>
     </section>
 
-
-    <!-- CERITA -->
     <section class="story">
 
       <div>
@@ -48,8 +30,6 @@
 
     </section>
 
-
-    <!-- TIM -->
     <section class="team">
 
       <h2>Tim Kami</h2>
@@ -100,9 +80,6 @@
   color: #263858;
 }
 
-
-/* NAVBAR */
-
 .navbar {
   max-width: 1100px;
   height: 75px;
@@ -136,9 +113,6 @@ nav a:hover {
   color: #405de6;
 }
 
-
-/* JUDUL */
-
 .title {
   max-width: 1100px;
 
@@ -158,9 +132,6 @@ nav a:hover {
 
   border-radius: 8px;
 }
-
-
-/* CERITA */
 
 .story {
   max-width: 950px;
@@ -199,9 +170,6 @@ nav a:hover {
 
   font-size: 70px;
 }
-
-
-/* TIM */
 
 .team {
   max-width: 1000px;
